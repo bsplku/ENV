@@ -1,0 +1,123 @@
+* {
+  cursor : none;
+}
+
+body {
+  background-color: black;
+}
+
+#vid {
+  cursor : none;
+}
+
+#instr {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 170px;
+  left: 140px;
+}
+
+#cross {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 150px;
+  left: 285px;
+}
+
+#scale_instr {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  width : 70%;
+  z-index: 2;
+  top: 125px;
+  left: 80px;
+}
+
+#scale {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 270px;
+  left: 105px;
+}
+
+#scale span{
+  margin-right: 35px
+}
+
+#left {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 310px;
+  left: 105px;
+}
+
+#right {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 310px;
+  left: 430px;
+}
+
+#test_q {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  width: 70%;
+  z-index: 2;
+  top: 125px;
+  left: 80px;
+}
+
+#choice {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 270px;
+  left: 80px;
+
+}
+
+#choice_s {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 270px;
+  left: 145px;
+
+}
+
+#choice span, #choice_s span{
+  margin-right: 20px
+}
+
+#end {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 150px;
+  left: 260px;
+}

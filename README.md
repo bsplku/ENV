@@ -1,20 +1,10 @@
----
-
----
-
 # Eye-tracking based Naturalistic Viewing Paradigm (ENV)
-------
 
 Guide for using our Eye-tracking based Naturalistic Viewing (ENV) Paradigm.
 
-
-
-[TOC]
-
-
+{:toc}
 
 ## Getting Started
-------
 
 ### System requirements
 
@@ -87,7 +77,7 @@ Lastly, place edited videos in *experimental_setup/files/vid* directory.
 
 
 ## Usage
------
+
 This VR experiment setup is designed to run using two computers, the **Eye-tracker computer** and the **Stimulus presentation** computer.
 
 
@@ -125,7 +115,7 @@ Once the "Initializations finished successfully. You can now proceed with the ex
 Open a web browser(i.e. Google Chrome) and connect to,
 
 ```http
-[IP address of the stimulus presentation computer]:8000/mouse
+[IP_address_of_the_stimulus_presentation_computer]:8000/mouse
 ```
 
 For example, if your stimulus presentation computer's IP address is *192.168.0.135*, then connect to
@@ -219,7 +209,7 @@ Open the *experimental_setup/index.js* file with a text editor and update the "*
 
 
 ## Data format
------
+
 All acquired data files are stored in the *experimental_setup/data* directory. 
 
 A **report file** (filename ends with "_report.txt") is generated at the first run of each subject. First line of a report file stores video clip IDs assigned to each run. Second line represents task block viewing conditions of each video ID. The following lines represent two viewing conditions assigned to each run.
@@ -242,8 +232,6 @@ We recommend integrating the **report file** and **etime files** of each partici
 
 ## Contributing
 
-------
-
 This project is intended to share our experimental setup code to the public.
 
 If you wish to contribute and update our code, please fork this repository and make changes as see fit.
@@ -251,8 +239,6 @@ If you wish to contribute and update our code, please fork this repository and m
 
 
 ## Diagrams of communication between computers
-
-------
 
 If you wish to modify or contribute to our ENV paradigm, please refer the communication diagrams between the Node.js sever (i.e., *index.js*) and experimental JavaScript codes on both computers, especially for the two main events: **video presentation** and **emotional questionnaires**.
 
@@ -273,8 +259,6 @@ If you wish to modify or contribute to our ENV paradigm, please refer the commun
 
 ## Authors
 
-------
-
 - **Sangsoo, Jin** (@constantjin) - *Developer* - Department of Computer Science, Korea University, Seoul, South Korea
 - **Niv Lustig** (@nivlu) - *Reviewer, Editor* - Department of Brain and Cognitive Engineering, Korea University, Seoul, South Korea
 - **Junho, Yun** (@somsatang0416) -  *Reviewer, Editor* - Department of Brain and Cognitive Engineering, Korea University, Seoul, South Korea
@@ -283,8 +267,6 @@ If you wish to modify or contribute to our ENV paradigm, please refer the commun
 
 
 ## License
-
-------
 
 MIT License
 

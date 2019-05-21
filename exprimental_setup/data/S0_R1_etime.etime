@@ -1,0 +1,78 @@
+Mon May 21 2018 17:35:12 GMT+0900 (대한민국 표준시)
+Trial #1	stop
+Instruction onset	0.06
+Cross onset	10.12
+Video start	16.16
+Video finish	226.49
+Cross onset	226.59
+Engagement scale start	231.69
+3
+Engagement scale finish	236.76
+Enjoy scale start	236.85
+3
+Enjoy scale finish	240.39
+Successful scale start	240.47
+3
+Successful scale finish	244.37
+Controllable scale start	244.45
+1
+Controllable scale finish	247.36
+Clear scale start	247.43
+5
+Clear scale finish	253.84
+Discomfort scale start	253.93
+2
+Discomfort scale finish	259.56
+Reality scale start	259.64
+5
+Reality scale finish	264.86
+Arousal scale start	264.93
+5
+Arousal scale finish	269.24
+Dominance scale start	269.31
+5
+Dominance scale finish	272.42
+Valence scale start	272.50
+3
+Valence scale finish	275.64
+test start	275.72
+4
+Test finish	282.47
+
+Trial #2	active
+Instruction onset	282.52
+Cross onset	292.58
+Video start	298.48
+Video finish	508.82
+Cross onset	508.91
+Engagement scale start	513.98
+8
+Engagement scale finish	517.91
+Enjoy scale start	517.98
+8
+Enjoy scale finish	520.86
+Successful scale start	520.93
+7
+Successful scale finish	525.76
+Controllable scale start	525.83
+8
+Controllable scale finish	530.66
+Clear scale start	530.73
+7
+Clear scale finish	534.65
+Discomfort scale start	534.72
+5
+Discomfort scale finish	536.97
+Reality scale start	537.04
+6
+Reality scale finish	540.29
+Arousal scale start	540.35
+8
+Arousal scale finish	543.42
+Dominance scale start	543.49
+7
+Dominance scale finish	545.80
+Valence scale start	545.86
+5
+Valence scale finish	548.02
+Final cross onset	548.09

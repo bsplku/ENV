@@ -1,0 +1,16 @@
+html
+  head
+    title Panorama video player
+    link(rel="stylesheet", href="./css/style.css")
+    script(src="/socket.io/socket.io.js")
+    script(src="./js/jquery-3.3.1.min.js")
+    script(src="./js/aframe.min.js")
+    script(src="./js/video.js")
+  body
+    a-scene(vr-mode-ui="enabled: false")
+      a-assets
+        video(id="vid", crossorigin="anonymous")
+          source(type="video/mp4", src= fileloc)/ 
+      
+      a-camera(id="cam", user-height="0")
+      a-videosphere(id="vidsphere", rotation= start, src="#vid")

@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Scale
+    link(rel="stylesheet", href="./css/style.css")
+    script(src="/socket.io/socket.io.js")
+    script(src="./js/jquery-3.3.1.min.js")
+    script(src="./js/scale.js")
+  body
+    p#scale_instr= scale_instr_text
+    div#left
+      span= left
+    div#scale
+      span 1
+      span 2
+      span 3
+      span 4
+      span 5
+      span 6
+      span 7
+      span 8
+      span 9 
+    div#right
+      span= right

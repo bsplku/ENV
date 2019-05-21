@@ -1,0 +1,33 @@
+Mon May 21 2018 17:35:12 GMT+0900 (대한민국 표준시)
+Trial #1	stop
+Instruction time	10.06
+Cross time	6.04
+Video play time	210.32
+Cross time	5.10
+Engagement scale time	5.07
+Cross time	0.09
+Cross time	3.62
+Cross time	3.97
+Cross time	2.99
+Cross time	6.49
+Cross time	5.71
+Cross time	5.30
+Cross time	4.38
+Cross time	3.19
+Test time	6.75
+
+Trial #2	active
+Instruction time	10.06
+Cross time	5.90
+Video play time	210.34
+Cross time	5.07
+Engagement scale time	3.94
+Cross time	0.07
+Cross time	2.95
+Cross time	4.90
+Cross time	4.90
+Cross time	3.98
+Cross time	2.32
+Cross time	3.31
+Cross time	3.14
+Cross time	2.37

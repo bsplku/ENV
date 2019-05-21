@@ -25,8 +25,8 @@ Node.js >= 8.11.1
 - pug >= 2.0.3
 - readline-sync >= 1.4.9
 - system-sleep >= 1.3.6
-
 <br>
+
 **NOTE**: Google Chrome should be installed on both computers.
 <br>
 <br>
@@ -253,7 +253,6 @@ If you wish to modify or contribute to our ENV paradigm, please refer the commun
 ![ENV_rating](diagrams/ENV_rating.svg)
 <br>
 <br>
-
 
 ## Authors
 

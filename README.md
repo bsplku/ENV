@@ -69,9 +69,8 @@ After preparing videos from the links, the videos need to be split into a **equa
 Then encode the resulting clips in a **.mp4 format** and rename the clips like "**1.mp4**", "**2.mp4**", "**3.mp4**", and "**4.mp4**".
 
 Lastly, place edited videos in *experimental_setup/files/vid* directory.
-
-
-
+<br>
+<br>
 
 ## Usage
 

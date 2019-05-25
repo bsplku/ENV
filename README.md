@@ -11,9 +11,9 @@ Guide for using our Eye-tracking based Naturalistic Viewing (ENV) Paradigm.
 
 <br>
 
-**NOTE**: We have **only** tested the ENV paradigm code on the two specified OS, Microsoft Windows 8.1 and XP.
+> **NOTE**: We have **only** tested the ENV paradigm code on the two specified OS, Microsoft Windows 8.1 and XP.
 
-**NOTE**: We have tested the ENV paradigm code **only** with *VisualSystem* goggles equipped with the built-in binocular eye-tracker (NordicNeuroLab, Bergen) and the *Viewpoint* eye-tracker software (Arrington Research) which has the "cursor control" functionality.
+> **NOTE**: We have tested the ENV paradigm code **only** with *VisualSystem* goggles equipped with the built-in binocular eye-tracker (NordicNeuroLab, Bergen) and the *Viewpoint* eye-tracker software (Arrington Research) which has the "cursor control" functionality.
 <br>
 <br>
 
@@ -27,7 +27,7 @@ Node.js >= 8.11.1
 - system-sleep >= 1.3.6
 <br>
 
-**NOTE**: Google Chrome should be installed on both computers.
+> **NOTE**: Google Chrome should be installed on both computers.
 <br>
 <br>
 
@@ -60,7 +60,7 @@ Rather, we recommend to prepare the videos from the YouTube links below.
 4. Panomenia (2015, March 13), 360° Video - Las Vegas at Night - 4K (https://youtu.be/Jt2kvX7KCE8)
 
 
-**NOTE**: Prepared videos should be used for the **experimental / non-commercial purpose only** and should **not** be openly distributed.
+> **NOTE**: Prepared videos should be used for the **experimental / non-commercial purpose only** and should **not** be openly distributed.
 <br>
 <br>
 
@@ -105,7 +105,7 @@ Once the "Initializations finished successfully. You can now proceed with the ex
 
 ### Step 2: Open Mouse client page on the *Eye-tracker computer*
 
-**NOTE**: If you have done this step in the previous run, simply press the **F5 key** on the web browser to reload the mouse client page and skip this step.
+> **NOTE**: If you have done this step in the previous run, simply press the **F5 key** on the web browser to reload the mouse client page and skip this step.
 <br>
 <br>
 
@@ -141,9 +141,9 @@ Press the **Auto-Calibration** button to perform eye-tracker calibration.
 <br>
 <br>
 
-**NOTE**: Make sure that the Mouse client page remains in a full-screen mode when switching the window. 
+> **NOTE**: Make sure that the Mouse client page remains in a full-screen mode when switching the window. 
 
-**NOTE**: We recommend always switching between open windows using Alt-Tab.
+> **NOTE**: We recommend always switching between open windows using Alt-Tab.
 <br>
 <br>
 
@@ -181,7 +181,7 @@ Steps 1-6 can be repeated for subsequent runs.
 <br>
 <br>
 
-**NOTE**: Participants should be instructed in advance to press buttons corresponding to **"3"** and **"4"** keys to decrease / increase the rating score, and press a button corresponding to **"2"** key to select the rating when the emotional questionnaires are shown. 
+> **NOTE**: Participants should be instructed in advance to press buttons corresponding to **"3"** and **"4"** keys to decrease / increase the rating score, and press a button corresponding to **"2"** key to select the rating when the emotional questionnaires are shown. 
 <br>
 <br>
 
@@ -193,9 +193,9 @@ Replace the existing four existing video files with newly selected videos.
 <br>
 <br>
 
-**NOTE**: All video files must be encoded as .mp4 format and named as "1.mp4", "2.mp4", "3.mp4", and "4.mp4".
+> **NOTE**: All video files must be encoded as .mp4 format and named as "1.mp4", "2.mp4", "3.mp4", and "4.mp4".
 
-**NOTE**: Participants with **odd** IDs will view clips "1.mp4" and "3.mp4" in the **Active** condition, and clips "2.mp4" and "4.mp4" in the **Passive** condition. Conversely, participants with **even** IDs will view clips "2.mp4" and "4.mp4" in the **Active** condition, and clips "1.mp4" and "3.mp4" in the **Passive** condition.
+> **NOTE**: Participants with **odd** IDs will view clips "1.mp4" and "3.mp4" in the **Active** condition, and clips "2.mp4" and "4.mp4" in the **Passive** condition. Conversely, participants with **even** IDs will view clips "2.mp4" and "4.mp4" in the **Active** condition, and clips "1.mp4" and "3.mp4" in the **Passive** condition.
 <br>
 <br>
 
@@ -219,7 +219,7 @@ A **rotation** file (filename ends with "_rotation.txt") is a text file correspo
 <br>
 <br>
 
-**NOTE**: In our experimental paradigm, there is unique viewing condition called "Passive" viewing. In the "Passive" condition the report and rotation file from the matching participant are read and the FoVs of the video are controlled automatically. This can be problematic to the first participant whose "matching participant" is unclear. To prevent this issue, we included report and rotation files from our pilot experiment. Therefore, we recommend not to delete / edit the pilot data files inside the *experimental_setup/data* directory. The pilot data files start with "S0_" (Subject ID 0).
+> **NOTE**: In our experimental paradigm, there is unique viewing condition called "Passive" viewing. In the "Passive" condition the report and rotation file from the matching participant are read and the FoVs of the video are controlled automatically. This can be problematic to the first participant whose "matching participant" is unclear. To prevent this issue, we included report and rotation files from our pilot experiment. Therefore, we recommend not to delete / edit the pilot data files inside the *experimental_setup/data* directory. The pilot data files start with "S0_" (Subject ID 0).
 <br>
 <br>
 
